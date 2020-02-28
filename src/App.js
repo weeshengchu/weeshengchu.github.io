@@ -5,6 +5,11 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./App.css";
 
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -32,6 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+        {/* 2. getting the header with navbar */}
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Alan CHU</Navbar.Brand>
@@ -55,6 +61,33 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          {/* 4. Routing */}
+          <Route
+            path="/"
+            exact
+            render={() => (
+              <HomePage
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                text={this.state.home.text}
+              />
+            )}
+          />
+
+          <Route
+            path="/about"
+            exact
+            render={() => <AboutPage title={this.state.about.title} />}
+          />
+          <Route
+            path="/contact"
+            exact
+            render={() => <ContactPage title={this.state.contact.title} />}
+          />
+
+          {/* 3. importing the footer */}
+          <Footer></Footer>
         </Container>
       </Router>
     );
