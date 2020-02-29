@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+// 5. Hero page -> title/subTitle/text
 function Hero(props) {
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
