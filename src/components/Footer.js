@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-// 2. setting up the Footer
+// 3. Setting up the Footer
 function Footer() {
   return (
     <footer className="mt-5">

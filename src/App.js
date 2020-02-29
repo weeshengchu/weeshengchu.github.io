@@ -1,14 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import "./App.css";
-
 import Footer from "./components/Footer";
-import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import HomePage from "./pages/HomePage";
 
 class App extends React.Component {
   constructor(props) {
@@ -21,8 +20,8 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" }
       ],
       home: {
-        title: "Be Relentless",
-        subtiltes: "projects that make a difference",
+        title: "Stay Curious",
+        subTitle: "projects that make a difference",
         text: "Checkout my projects below"
       },
       about: {
