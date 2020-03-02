@@ -7,6 +7,7 @@ function AboutPage(props) {
   return (
     <div>
       <Hero title={props.title}></Hero>
+      {/* 7. Setting up AboutPage with <Content> */}
       <Content>
         <p>
           I graduated in May 2019 from Nanyang Technological University with a

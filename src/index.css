@@ -38,7 +38,7 @@ code {
   margin: 0px;
 }
 
-/* .success-msg {
+.success-msg {
   color: #57a773;
   padding: 10px 15px;
 }
@@ -46,4 +46,45 @@ code {
 .err-msg {
   color: #ee6352;
   padding: 10px 15px;
-} */
+}
+
+/* Social Media Icons
+npm install --save @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons */
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+a.linkedin {
+  color: #0072b1;
+}
+a.github {
+  color: #211f1f;
+}

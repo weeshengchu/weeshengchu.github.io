@@ -8,7 +8,7 @@ function Content(props) {
   return (
     <Container fluid={true}>
       <Row className="justify-content-center">
-        {/* 7. children -> special property */}
+        {/* 7. children -> special property -> to display content in AboutPage only*/}
         <Col md={8}>{props.children}</Col>
       </Row>
     </Container>

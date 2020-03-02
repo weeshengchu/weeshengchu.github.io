@@ -1,6 +1,8 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import Button from "react-bootstrap/Button";
+
+// 6. npm install react-spring
 function CardInfo(props) {
   const style = useSpring({ opacity: 1, from: { opacity: 0 } });
 

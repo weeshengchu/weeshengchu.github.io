@@ -22,7 +22,7 @@ class App extends React.Component {
       home: {
         title: "Stay Curious",
         subTitle: "projects that make a difference",
-        text: "Checkout my projects below"
+        text: "Checkout my latest projects below"
       },
       about: {
         title: "About Me!"
