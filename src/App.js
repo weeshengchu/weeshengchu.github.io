@@ -63,7 +63,7 @@ class App extends React.Component {
 
           {/* 4. Routing */}
           <Route
-            path="/react-portfolio"
+            path="/react-portfolio/"
             exact
             render={() => (
               <HomePage
