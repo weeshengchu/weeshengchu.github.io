@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from "../components/Card";
 
-import devgrub from "../assets/images/Myself1.jpeg";
+import devgrub from "../assets/images/angular.png";
 import youtube from "../assets/images/flask3.png";
 import evverest from "../assets/images/Myself1.jpeg";
 import Container from "react-bootstrap/Container";
@@ -15,16 +15,17 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "Myself",
-          subTitle: "The cookbook for developers",
+          title: "Angular App",
+          subTitle: "Still in deployment phase",
           imgSrc: devgrub,
-          link: "https://github.com/weeshengchu",
+          link:
+            "https://github.com/weeshengchu/Angular-8-Spring-Boot---Todo-app",
           selected: false
         },
         {
           id: 1,
           title: "Flask Blog",
-          subTitle: "testing",
+          subTitle: "To be used for Machine Learning",
           imgSrc: youtube,
           link: "https://flaskblogprojectapp.herokuapp.com/",
           selected: false
@@ -32,7 +33,7 @@ class Carousel extends React.Component {
         {
           id: 2,
           title: "Myself",
-          subTitle: "A social network for developers",
+          subTitle: "Click below to track my github progress",
           imgSrc: evverest,
           link: "https://github.com/weeshengchu",
           selected: false

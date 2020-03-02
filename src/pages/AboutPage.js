@@ -45,17 +45,29 @@ function AboutPage(props) {
           on an Angular 8 and Spring Boot technology stack.
         </p>
 
-        {/* <p>
-          When I'm not learning something new chances are I'm creating some
-          YouTube videos. You can find those{" "}
-          <a
-            href="http://www.youtube.com/c/GarrettLove1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            here
-          </a>
-        </p> */}
+        <p>
+          Currently, I am intending to pursue a field included Machine Learning,
+          Data science, AI, Deep Learning and Neural Network.
+        </p>
+        <p>
+          Some other notable Technology stacks that I have worked on includes:
+        </p>
+        <Table bordered size="sm-1">
+          <tbody>
+            <tr>
+              <td>Machine Learning - Python</td>
+              <td>Data Cleaning (Kaggle) - Python</td>
+              <td>Flask</td>
+              <td>MATLAB</td>
+            </tr>
+            <tr>
+              <td>Angular 8</td>
+              <td>Mathematica</td>
+              <td>Express - Backend API</td>
+              <td>MongoDB Atlas</td>
+            </tr>
+          </tbody>
+        </Table>
       </Content>
     </div>
   );
