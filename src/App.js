@@ -63,18 +63,6 @@ class App extends React.Component {
 
           {/* 4. Routing */}
           <Route
-            path="/react-portfolio/"
-            exact
-            render={() => (
-              <HomePage
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-                text={this.state.home.text}
-              />
-            )}
-          />
-
-          <Route
             path="/"
             exact
             render={() => (
