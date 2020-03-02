@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a780d730.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d2f9e343.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d2f9e343.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.4676979b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.4676979b.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.1eb417a9.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1eb417a9.js.map",
     "static/css/2.47e06e2e.chunk.css": "/react-portfolio/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.ad2c0c0b.chunk.js": "/react-portfolio/static/js/2.ad2c0c0b.chunk.js",
-    "static/js/2.ad2c0c0b.chunk.js.map": "/react-portfolio/static/js/2.ad2c0c0b.chunk.js.map",
+    "static/js/2.ef4b243e.chunk.js": "/react-portfolio/static/js/2.ef4b243e.chunk.js",
+    "static/js/2.ef4b243e.chunk.js.map": "/react-portfolio/static/js/2.ef4b243e.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.97f2bcfcbbfc1cd8ef30aca68ce56649.js": "/react-portfolio/precache-manifest.97f2bcfcbbfc1cd8ef30aca68ce56649.js",
+    "precache-manifest.1510e0bddb5aa805b40eb8f539ae14b6.js": "/react-portfolio/precache-manifest.1510e0bddb5aa805b40eb8f539ae14b6.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/react-portfolio/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.a780d730.chunk.css.map": "/react-portfolio/static/css/main.a780d730.chunk.css.map",
-    "static/js/2.ad2c0c0b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ad2c0c0b.chunk.js.LICENSE.txt",
+    "static/js/2.ef4b243e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ef4b243e.chunk.js.LICENSE.txt",
     "static/media/Myself1.jpeg": "/react-portfolio/static/media/Myself1.ee9feef4.jpeg",
+    "static/media/angular.png": "/react-portfolio/static/media/angular.b302f5db.png",
     "static/media/flask3.png": "/react-portfolio/static/media/flask3.eebb1b33.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1eb417a9.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.ad2c0c0b.chunk.js",
+    "static/js/2.ef4b243e.chunk.js",
     "static/css/main.a780d730.chunk.css",
-    "static/js/main.d2f9e343.chunk.js"
+    "static/js/main.4676979b.chunk.js"
   ]
 }
